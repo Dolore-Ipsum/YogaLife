@@ -9,10 +9,10 @@ body {
 }
 
 .container {
+      position: relative;
       width: 1440px;
       margin: 0 auto;
       padding: 0 10px;
-
 }
 
 .header-top {
@@ -196,7 +196,6 @@ body {
 .promo-items {
       display: flex;
       justify-content: space-between;
-
 }
 
 .promo-item {
@@ -209,7 +208,7 @@ body {
       font-family: Tahoma;
       font-style: normal;
       font-weight: bold;
-      font-size: 13px;
+      font-size: 14px;
       line-height: 16px;
       text-align: center;
       color: rgba(0, 0, 0, 0.7);
@@ -295,7 +294,7 @@ body {
         z-index: 15;
 }
 
-.direction .green-line {
+.green-line {
         position: relative;
         top: -15px;
         width: 182px;
@@ -311,14 +310,14 @@ body {
         font-family: Tahoma;
         font-style: normal;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 19px;
         color: rgba(0, 0, 0, 0.7);
         margin-bottom: 295px;
 }
 
 .direction p:last-child {
-        margin-bottom: 150px;
+        margin-bottom: 180px;
 }
 
 
@@ -363,23 +362,590 @@ body {
         background-image: url("../img/bikram-yoga.png");
 }
 
-.instructor-name {
+.instructor {
+      height: 495px;
+      margin-bottom: 20px;
+}
+
+.instructor .instructor-title {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 75px;
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 43px;
+      color: #000000;
+      margin-bottom: 320px;
+}
+
+.instructor-items {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      position: relative;
+}
+
+.instructor-item {
+      position: relative;
+      margin-right: 75px;
+}
+
+.instructor-item:last-child {
+      position: relative;
+      margin-right: 0;
+}
+
+
+.instructor-icon {
+      position: absolute;
+      width: 230px;
+      height: 230px;
+      bottom: 110px;
+      left: 20px;
+      background-image: url("../img/instructor.png");
+      background-repeat: no-repeat;
+}
+
+.instructor .instructor-2 {
+      background-image: url("../img/instructor-2.png");
+}
+
+.instructor .instructor-3 {
+      left: 25px;
+      background-image: url("../img/instructor-3.png");
+}
+
+.instructor .instructor-4 {
+      background-image: url("../img/instructor-4.png");
+      background-repeat: no-repeat;
+      background-color: #948BAA;
+      border-radius: 50%;
+}
+
+.instructor-item h3 {
+      font-family: Tahoma;
+      font-style: normal;
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 35px;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      width: 275px;
+}
+
+.instructor-item p {
+      text-align: center;
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 19px;
+      width: 275px;
+      color: rgba(0, 0, 0, 0.7);
+}
+
+
+.tour {
+      position: relative;
+      height: 654px;
+      margin-bottom: 55px;
+}
+
+.tour .tour-title {
+      display: flex;
+      justify-content: center;
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 43px;
+      color: #000000;
+}
+
+.tour-colorblock {
+      position: absolute;
+      height: 40px;
+      opacity: 0.5;
+}
+
+.tour .tour-yellow-block {
+      top: 570px;
+      width: 690px;
+      background-color: #EFF310;
+}
+
+.tour .tour-green-block {
+      top: 112px;
+      left: 660px;
+      height: 498px;
+      width: 40px;
+      background-color: #00D222;
+}
+
+.india-tour {
+      position: absolute;
+      left: 590px;
+      top: 160px;
+      width: 463px;
+      height: 356px;
+      padding: 25px;
+      padding-top: 5px;
+      background-color: #ffffff;
+      border: 1px solid #948BAA;
+      z-index: 9;
+}
+
+.india-tour h3 {
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 39px;
+}
+
+.india-tour p {
+      position: relative;
+      top: -10px;
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 19px;
+      color: rgba(0, 0, 0, 0.7);
+      margin-bottom: 55px;
+}
+
+.btn{
+      display: inline-block;
+      font-size: 16px;
+      line-height: 19px;
+      font-family: Roboto Slab;
+      font-style: normal;
+      font-weight: bold;
+      text-align: center;
+      vertical-align: bottom;
+      text-decoration: none;
+      background: #eff310;
+      color: #000;
+      cursor: pointer;
+      outline: none;
+      border: none;
+}
+
+.btn:hover{
+      opacity: 0.9;
+      border: 1px solid #00D222;
+}
+
+.btn:active{
+      background: #00D222;
+      opacity: 0.7;
+}
+
+.india-tour .btn-yellow {
+      padding: 15px 70px;
+      border-radius: 35px;
+}
+
+.tour .container::after{
+      position: absolute;
+      content: "";
+      clear: both;
+      width: 670px;
+      height: 478px;
+      top: 112px;
+      background-image: url("../img/india-tour.png");
+      z-index: 8;
+}
+
+.tour .container::before{
+      position: absolute;
+      content: "";
+      clear: both;
+      width: 70px;
+      height: 70px;
+      right: 265px;
+      top: 325px;
+      background-image: url("../img/switch.png");
+      z-index: 10;
+}
+
+.price-title {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 75px;
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 43px;
+      color: #000000;
+}
+
+.price-block{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 55px;
+}
+
+.price .lessons {
+      display: inline-block;
+      position: relative;
+      width: 320px;
+      padding-left: 60px;
+      padding-top: 30px;
+      margin-right: 83px;
+      height: 461px;
+      background: conic-gradient(from -2.47deg at -24.29% 111.06%,
+        rgba(0, 210, 34, 0.09) 0deg, rgba(0, 210, 34, 0.6) 21.72deg,
+        rgba(0, 210, 34, 0.378568) 44.58deg, rgba(0, 210, 34, 0.09) 360deg);
+      border-radius: 20px;
+}
+
+.price .lessons:last-child {
+      margin-right: 0;
+}
+
+.lessons p {
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 19px;
+      width: 200px;
+      color: rgba(0, 0, 0, 0.7);
+}
+
+.price-schedule-2 {
+      margin-bottom: 50px;
+}
+
+.price-schedule::before{
+      position: absolute;
+      content: "";
+      clear: both;
+      width: 13px;
+      height: 13px;
+      left: 30px;
+      margin-top: 10px;
+      border-radius: 50%;
+      background-color: #eff310;
+}
+
+.lessons h3 {
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 39px;
+      color: #000000;
+      margin: 0;
+      margin-bottom: 60px;
+}
+
+.price-schedule {
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      color: rgba(0, 0, 0, 0.7);
+}
+
+.price .price-money {
+      margin-bottom: 40px;
+}
+
+.price .btn-yellow {
+      padding: 14px 50px;
+      border-radius: 35px;
+      margin-left: 35px;
+}
+
+.feedback .container {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 994px;
+      height: 356px;
+      background-color: #fff;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+      margin-bottom: 76px;
+}
+
+.feedback-title {
+      position: relative;
+      left: 120px;
+      top: 35px;
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 43px;
+      color: #000000;
+}
+
+.feedback table {
+      margin: 0;
+      padding: 0;
+      border-spacing: 70px;
+}
+
+.feedback .feedback-form input[type="text"]{
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      position: relative;
+      top: -5px;
+      width: 380px;
+      padding: 10px 100px 10px 50px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      font-family: Roboto Slab;
+      font-style: normal;
+      outline: none;
+      border: 2px solid #948BAA;
+      border-radius: 28px;
+      align-items: center;
+      text-align: left;
+}
+
+.feedback .feedback-form input[type="text"]:hover{
+      border: 2px solid #00D222;
+}
+
+.feedback .feedback-form input[type="text"]:focus{
+      border: 2px solid #00D222;
+      background-color: lightyellow;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+     color:#000;
+}
+
+.feedback .btn-yellow {
+      position: relative;
+      left: 355px;
+      bottom: 30px;
+      text-align: center;
+      padding-top: 15px;
+      width: 250px;
+      height: 35px;
+      border-radius: 35px;
+}
+
+.contacts .container{
+      position: relative;
+      height: 779px;
+      margin-bottom: 55px;
+}
+
+.contacts .container::before {
+  content: "";
+  clear: both;
   position: absolute;
-  left: 200px;
+  width: 1440px;
+  height: 701px;
+  bottom: 0;
+  left: 0;
+  right: auto;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/map-black.png");
+}
+
+.contacts .container::after {
+  content: "";
+  clear: both;
+  position: absolute;
+  width: 49px;
+  height: 76px;
+  top: 255px;
+  left: 635px;
+  right: auto;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/ico-bubble.svg");
+}
+
+.contacts-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.contacts .address {
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    left: 0;
+    top: 280px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contacts .address h3 {
+    position: relative;
+    left: 60px;
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align:left;
+}
+
+.contacts .address .contacts-address {
+  width: 270px;
+  margin-bottom: 38px;
+}
+
+.contacts .address p {
+    position: relative;
+    left: 90px;
+    text-align:left;
+    margin-bottom: 28px;
+    width: 180px;
+    height: 34px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.address-colorblock {
+      position: absolute;
+      height: 15px;
+      opacity: 0.5;
+}
+
+.address .address-yellow-block {
+      top: 365px;
+      width: 380px;
+      background-color: #EFF310;
+}
+
+.address .address-green-block {
+      top: 0px;
+      left: 365px;
+      height: 380px;
+      width: 15px;
+      background-color: #00D222;
+}
+
+.address p::before{
+      position: absolute;
+      content: "";
+      clear: both;
+      width: 13px;
+      height: 13px;
+      left: -30px;
+      margin-top: 6px;
+      border-radius: 50%;
+      background-color: #eff310;
 }
 
 
-/*
-.instructor-title {
-        display: flex;
-        justify-content: center;
-        padding-left: 20px;
-        font-family: Tahoma;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 43px;
-        color: #000000;
-        background-color: green;
+.footer-social {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      align-items: center;
+      position: relative;
+      left: 1280px;
+      top: -53px;
+      font-size: 0;
+      width: 150px;
 }
-*\
+
+.footer-menu {
+      display: flex;
+      position: relative;
+      justify-content: flex-start;
+      width: 830px;
+}
+
+.footer-menu li {
+      display: inline-block;
+      margin-right: 50px;
+}
+
+.footer-menu li a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black;
+      opacity: 0.7;
+      font-weight: bold;
+      font-size: 16px;
+}
+
+.footer-menu li a:hover {
+      color: #D27E00;
+}
+
+.footer-menu li a:active {
+      opacity: 0.5;
+}
+
+.footer-colorblock {
+        width: 930px;
+        height: 55px;
+        opacity: 0.5;
+        background-color: #EFF310;
+}
+
+.footer-block .footer-yellow-block{
+        position: relative;
+        width: 980px;
+        left: -11px;
+        background-color: #EFF310;
+}
+
+.footer-block .footer-green-block{
+        position: relative;
+        bottom: 55px;
+        right: -500px;
+        background-color: #00D222;
+}
+
+.footer-bottom .container {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top:-30px;
+      font-family: Tahoma;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 19px;
+      color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-bottom p::after {
+      content: "";
+      clear: both;
+      position: absolute;
+      width: 15px;
+      height: 10px;
+      top: 14px;
+      left: 757px;
+      right: auto;
+      margin: 0;
+      padding: 0;
+      background-image: url("../img/ico-bottom-flower.svg");
+}
