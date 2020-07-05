@@ -41,6 +41,11 @@ body {
 
 }
 
+.social-btn:hover{
+      position: relative;
+      top: -5px;
+
+}
 .social-btn-vk {
       width: 34px;
       height: 34px;
@@ -563,22 +568,22 @@ body {
 }
 
 .tour .container a img {
-  position: absolute;
-  content: "";
-  clear: both;
-  width: 70px;
-  height: 70px;
-  right: -110px;
-  top: 150px;
-  z-index: 10;
+      position: absolute;
+      content: "";
+      clear: both;
+      width: 70px;
+      height: 70px;
+      right: -110px;
+      top: 150px;
+      z-index: 10;
 }
 
 .tour .container a img:hover {
-opacity: 0.9;
+      opacity: 0.9;
 }
 
 .tour .container a img:active {
-opacity: 0.7;
+      opacity: 0.7;
 }
 
 .price-title {
@@ -753,86 +758,101 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .contacts .container::before {
-  content: "";
-  clear: both;
-  position: absolute;
-  width: 1440px;
-  height: 701px;
-  bottom: 0;
-  left: 0;
-  right: auto;
-  margin: 0;
-  padding: 0;
-  background-image: url("../img/map-black.png");
+      content: "";
+      clear: both;
+      position: absolute;
+      width: 1440px;
+      height: 701px;
+      bottom: 0;
+      left: 0;
+      right: auto;
+      margin: 0;
+      padding: 0;
+      background-image: url("../img/map-black.png");
 }
 
-.contacts .container::after {
-  content: "";
-  clear: both;
-  position: absolute;
-  width: 49px;
-  height: 76px;
-  top: 255px;
-  left: 635px;
-  right: auto;
-  margin: 0;
-  padding: 0;
-  background-image: url("../img/ico-bubble.svg");
+
+.contacts .container a {
+      content: "";
+      clear: both;
+      position: absolute;
+      width: 49px;
+      height: 76px;
+      top: -20px;
+      left: 635px;
+      right: auto;
+      margin: 0;
+      padding: 0;
+      z-index: 25;
+}
+
+.contacts .container a:hover {
+      content: "";
+      clear: both;
+      position: absolute;
+      width: 49px;
+      height: 76px;
+      top: -30px;
+      left: 635px;
+      right: auto;
+      margin: 0;
+      padding: 0;
+      z-index: 25;
 }
 
 .contacts-title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 75px;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 43px;
-    color: #000000;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 75px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 43px;
+      color: #000000;
 }
 
 .contacts .address {
-    position: absolute;
-    width: 380px;
-    height: 380px;
-    left: 0;
-    top: 280px;
-    text-align: center;
-    background-color: #fff;
+      position: absolute;
+      width: 380px;
+      height: 380px;
+      left: 0;
+      top: 280px;
+      text-align: center;
+      background-color: #fff;
 }
 
 .contacts .address h3 {
-    position: relative;
-    left: 60px;
-    margin-top: 70px;
-    margin-bottom: 0;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 47px;
-    text-align:left;
+      position: relative;
+      left: 60px;
+      margin-top: 70px;
+      margin-bottom: 0;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 47px;
+      text-align:left;
 }
 
 .contacts .address .contacts-address {
-  width: 270px;
-  margin-bottom: 38px;
+      width: 270px;
+      margin-bottom: 38px;
 }
 
 .contacts .address p {
-    position: relative;
-    left: 90px;
-    text-align:left;
-    margin-bottom: 28px;
-    width: 180px;
-    height: 34px;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 25px;
-    color: rgba(0, 0, 0, 0.7);
+      position: relative;
+      left: 90px;
+      text-align:left;
+      margin-bottom: 28px;
+      width: 180px;
+      height: 34px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 25px;
+      color: rgba(0, 0, 0, 0.7);
 }
 
 .address-colorblock {
@@ -884,7 +904,7 @@ input[type="text"]::-webkit-input-placeholder {
       display: flex;
       position: relative;
       justify-content: flex-start;
-      width: 830px;
+      width: 950px;
 }
 
 .footer-menu li {
@@ -950,9 +970,19 @@ input[type="text"]::-webkit-input-placeholder {
       width: 15px;
       height: 10px;
       top: 14px;
-      left: 754px;
+      left: 751px;
       right: auto;
       margin: 0;
       padding: 0;
       background-image: url("../img/ico-bottom-flower.svg");
+}
+
+.footer-bottom a {
+      color: rgba(0, 0, 0, 0.7);
+      text-decoration: none;
+}
+
+.footer-bottom a:hover {
+      color: rgba(0, 0, 0, 0.5);
+      text-decoration: none;
 }
