@@ -2,7 +2,7 @@ body {
       min-width: 1460px;
       margin: 0;
       padding: 0;
-      font-family: Tahoma, sans-serif;
+      font-family: Gilroy, sans-serif;
       font-size: 18px;
       line-height: 19px;
       background: rgba(4, 4, 4, 0.03);
@@ -101,7 +101,7 @@ body {
       position: absolute;
       z-index: 0;
       top: -12px;
-      left: 108px;
+      left: 98px;
       opacity: 0.7;
       width: 50px;
       height: 36px;
@@ -183,7 +183,7 @@ body {
       left: 65px;
       width: 750px;
       margin-bottom: 75px;
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 36px;
@@ -205,7 +205,7 @@ body {
 .promo-item p{
       width: 200px;
       height: 45px;
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 14px;
@@ -247,7 +247,7 @@ body {
 }
 
 .colorblock {
-        width: 876px;
+        width: 1000px;
         height: 55px;
         opacity: 0.5;
         background-color: #EFF310;
@@ -255,14 +255,14 @@ body {
 
 .block .yellow-block{
         position: relative;
-        left: -11px;
+        left: -50px;
         background-color: #EFF310;
 }
 
 .block .green-block{
         position: relative;
         bottom: 55px;
-        right: -574px;
+        right: -495px;
         background-color: #00D222;
 }
 
@@ -275,7 +275,7 @@ body {
         position: relative;
         top: -10px;
         width: 375px;
-        font-family: Tahoma;
+        font-family: Gilroy;
         font-style: normal;
         font-weight: bold;
         font-size: 36px;
@@ -286,7 +286,7 @@ body {
 }
 
 .direction h3 {
-        font-family: Tahoma;
+        font-family: Gilroy;
         font-style: normal;
         font-weight: bold;
         font-size: 32px;
@@ -307,7 +307,7 @@ body {
         top: -15px;
         width: 400px;
         height: 100px;
-        font-family: Tahoma;
+        font-family: Gilroy;
         font-style: normal;
         font-weight: bold;
         font-size: 15px;
@@ -371,7 +371,7 @@ body {
       display: flex;
       justify-content: center;
       margin-bottom: 75px;
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 36px;
@@ -426,7 +426,7 @@ body {
 }
 
 .instructor-item h3 {
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-size: 32px;
       font-weight: bold;
@@ -439,7 +439,7 @@ body {
 
 .instructor-item p {
       text-align: center;
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 13px;
@@ -458,7 +458,7 @@ body {
 .tour .tour-title {
       display: flex;
       justify-content: center;
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 36px;
@@ -500,7 +500,7 @@ body {
 }
 
 .india-tour h3 {
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 32px;
@@ -510,7 +510,7 @@ body {
 .india-tour p {
       position: relative;
       top: -10px;
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 15px;
@@ -523,7 +523,7 @@ body {
       display: inline-block;
       font-size: 16px;
       line-height: 19px;
-      font-family: Roboto Slab;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       text-align: center;
@@ -562,23 +562,30 @@ body {
       z-index: 8;
 }
 
-.tour .container::before{
-      position: absolute;
-      content: "";
-      clear: both;
-      width: 70px;
-      height: 70px;
-      right: 265px;
-      top: 325px;
-      background-image: url("../img/switch.png");
-      z-index: 10;
+.tour .container a img {
+  position: absolute;
+  content: "";
+  clear: both;
+  width: 70px;
+  height: 70px;
+  right: -110px;
+  top: 150px;
+  z-index: 10;
+}
+
+.tour .container a img:hover {
+opacity: 0.9;
+}
+
+.tour .container a img:active {
+opacity: 0.7;
 }
 
 .price-title {
       display: flex;
       justify-content: center;
       margin-bottom: 75px;
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 36px;
@@ -611,7 +618,7 @@ body {
 }
 
 .lessons p {
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 14px;
@@ -637,7 +644,7 @@ body {
 }
 
 .lessons h3 {
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 32px;
@@ -648,7 +655,7 @@ body {
 }
 
 .price-schedule {
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: normal;
       font-size: 12px;
@@ -681,7 +688,7 @@ body {
       position: relative;
       left: 120px;
       top: 35px;
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 36px;
@@ -706,7 +713,7 @@ body {
       font-weight: bold;
       font-size: 16px;
       line-height: 19px;
-      font-family: Roboto Slab;
+      font-family: Gilroy;
       font-style: normal;
       outline: none;
       border: 2px solid #948BAA;
@@ -777,7 +784,7 @@ input[type="text"]::-webkit-input-placeholder {
     display: flex;
     justify-content: center;
     margin-bottom: 75px;
-    font-family: Tahoma;
+    font-family: Gilroy;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -800,7 +807,7 @@ input[type="text"]::-webkit-input-placeholder {
     left: 60px;
     margin-top: 70px;
     margin-bottom: 0;
-    font-family: Roboto Slab;
+    font-family: Gilroy;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -820,7 +827,7 @@ input[type="text"]::-webkit-input-placeholder {
     margin-bottom: 28px;
     width: 180px;
     height: 34px;
-    font-family: Tahoma;
+    font-family: Gilroy;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -903,7 +910,7 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .footer-colorblock {
-        width: 930px;
+        width: 980px;
         height: 55px;
         opacity: 0.5;
         background-color: #EFF310;
@@ -911,8 +918,8 @@ input[type="text"]::-webkit-input-placeholder {
 
 .footer-block .footer-yellow-block{
         position: relative;
-        width: 980px;
-        left: -11px;
+        width: 1010px;
+        left: -41px;
         background-color: #EFF310;
 }
 
@@ -928,7 +935,7 @@ input[type="text"]::-webkit-input-placeholder {
       justify-content: center;
       position: relative;
       top:-30px;
-      font-family: Tahoma;
+      font-family: Gilroy;
       font-style: normal;
       font-weight: bold;
       font-size: 18px;
@@ -943,7 +950,7 @@ input[type="text"]::-webkit-input-placeholder {
       width: 15px;
       height: 10px;
       top: 14px;
-      left: 757px;
+      left: 754px;
       right: auto;
       margin: 0;
       padding: 0;
