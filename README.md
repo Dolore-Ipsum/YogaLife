@@ -1,2 +1,2 @@
 # YogaLife
-Site
+Website about yoga training
